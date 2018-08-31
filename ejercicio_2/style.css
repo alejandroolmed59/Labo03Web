@@ -1,0 +1,57 @@
+*{
+    font-family: 'Dancing Script', cursive;
+}
+p{
+    font-family: 'Dancing Script', cursive;
+    font-size: 4em;
+    text-align: center;
+}
+table{
+    margin-left: auto;
+    margin-right: auto;
+    background-color: whitesmoke;
+}
+
+td {
+    width: 100px;
+    height: 100px;
+    text-align: center;
+}
+
+div{
+    visibility: hidden;
+}
+
+tr:nth-of-type(even)>td:nth-of-type(odd){
+    background-color: black;
+    color: white;
+}
+tr:nth-of-type(even)>td:nth-of-type(odd):hover{
+
+    background-color: rgba(255, 0, 0, 0.5);
+}
+tr:nth-of-type(odd)>td:nth-of-type(even){
+    background-color: black;
+    color: white;
+}
+tr:nth-of-type(odd)>td:nth-of-type(even):hover{
+
+    background-color: rgba(255, 0, 0, 0.5);
+}
+
+td:hover{
+    background-color: rgba(255, 0, 0, 0.5);
+}
+td:hover div{
+    visibility: visible;
+}
+footer{
+    background-color: #2d3436;
+    padding: 20px;
+    color: white;
+}
+footer>span>p{
+    font-size: 2em;
+}
+
+ 
