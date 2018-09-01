@@ -1,0 +1,99 @@
+button{
+    padding: 0.75em 1.5em;
+    margin: 4px 2px;
+    text-decoration: none;
+    font-size: 1em;
+    border-radius: 10%;
+    border: none;
+    color: #757072;
+}
+
+button:hover{
+    opacity: 0.6;
+}
+
+.Tamannios #pequennio{
+    font-size: 50%;
+}
+.Tamannios #grande{
+    font-size: 150%;
+}
+.Colores button{
+    color: white;
+}
+.Colores #esmeraldaC{
+    background-color: #57d68d;
+}
+.Colores #cieloC{
+    background-color: #5cace2;
+}
+
+.Colores #amatistaC{
+    background-color: #ae7ac4;
+}
+
+.Colores #asfaltoC{
+    background-color: #5c6d7e;
+}
+.Colores #topazioC{
+    background-color: #ea974e;;
+}
+.Colores #rubiC{
+    background-color: #eb6f62;
+}
+.Bordeado button{
+    border: solid;
+    background-color: white;
+}
+
+.Bordeado #esmeraldaB{
+    border-color: #57d68d;
+    color: #57d68d;
+}
+.Bordeado #cieloB{
+    border-color: #5cace2;
+    color: #5cace2;
+}
+
+.Bordeado #amatistaB{
+    border-color: #ae7ac4;
+    color: #ae7ac4;
+}
+
+.Bordeado #asfaltoB{
+    border-color: #5c6d7e;
+    color: #5c6d7e;
+}
+.Bordeado #topazioB{
+    border-color: #ea974e;
+    color: #ea974e;;
+}
+.Bordeado #rubiB{
+    border-color: #eb6f62;
+    color: #eb6f62;
+}
+#largo_asfalto{
+    background-color: #5c6d7e;
+    color: white;
+    font-size: 150%;
+}
+#borde_cielo{
+    border: solid;
+    border-color: #5cace2;
+    color: #5cace2;
+    background-color: white;
+}
+#pequennia_esmeralda{
+    font-size: 50%;
+    background-color: #57d68d;
+    color: white;
+}
+#gran_borde_rubi{
+    border: solid;
+    border-color: #eb6f62;
+    color: #eb6f62;
+    background-color: white;
+    font-size: 150%;
+}
+
+
